@@ -1,0 +1,30 @@
+body
+{
+	text-align: center;
+}
+
+.askPseudoForm {
+ 	margin: auto;
+ 	margin-bottom: 20px;
+ 	width: 300px;
+ 	padding: 20px;
+ 	border: 1px solid black;
+}
+
+td {
+	margin: auto;
+  	margin-bottom: 20px;
+  	width: 80px;
+  	height: 80px;
+  	border: 1px solid black;
+}
+
+table
+{
+	margin: auto;
+}
+
+#wonMessage {
+	font-size: 40px;
+	color: red;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Puissance 4</title>
+    </head>
+
+    <body>
+    	<h1>Puissance 4</h1>
+	    <form id="form1" class="askPseudoForm">
+	      <div id="pseudoPlayer1">
+	      	<label>Joueur 1:</label><br/>
+	      	<input type="text" id="name1" placeholder="Pseudo" /><br/>
+	      	<input id="formButton1" type="submit" value="Valider"/>
+	      </div>
+	    </form>
+	    <form id="form2" class="askPseudoForm">
+	      <div id="pseudoPlayer2">
+	      	<label>Joueur 2:</label><br/>
+	      	<input type="text" id="name2" placeholder="Pseudo" /><br/>
+	      	<input id="formButton2" type="submit" value="Valider"/>
+	      </div>
+	    </form>
+	    <div>
+	    	<p id="Player1">
+	    	</p>
+	    	<p id="Player2">
+	    	</p>
+	    </div>
+
+	    <p id="turn_text">
+	    </p>
+        <div id="wonMessage"></div>
+	    <table id="topGrille" border="1" bordercolor="black">
+	    </table>
+	    <table id="grille" border="1" bordercolor="black">
+        </table>
+        <br/>
+        <div id="replay"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
